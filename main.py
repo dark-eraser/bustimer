@@ -9,6 +9,8 @@ def compute_itinerary(api_key=""):
       data = json.load(f)
   if data['MAPS_API_KEY']:
     api_key = data['MAPS_API_KEY']
+  else:
+    api_key = api_key
   print(api_key)
   gmaps = googlemaps.Client(key=api_key)
   origin_location = "9H4X+R6 Zürich"
@@ -36,7 +38,7 @@ def get_times():
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('api_key', help='Google Maps API key')
+    parser.add_argument('api_key', help='Google Maps API key', required=False)
     args = parser.parse_args()
 # run this every minute
     while True:

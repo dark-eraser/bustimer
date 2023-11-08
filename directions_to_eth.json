@@ -14,14 +14,14 @@
         "legs": [
             {
                 "arrival_time": {
-                    "text": "5:44\u202fPM",
+                    "text": "6:14\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699461889
+                    "value": 1699463689
                 },
                 "departure_time": {
-                    "text": "5:17\u202fPM",
+                    "text": "5:47\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699460238
+                    "value": 1699462038
                 },
                 "distance": {
                     "text": "5.9 km",
@@ -72,9 +72,9 @@
                                 "name": "Neumarkt"
                             },
                             "arrival_time": {
-                                "text": "5:35\u202fPM",
+                                "text": "6:05\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699461330
+                                "value": 1699463130
                             },
                             "departure_stop": {
                                 "location": {
@@ -84,9 +84,9 @@
                                 "name": "Zweiackerstrasse"
                             },
                             "departure_time": {
-                                "text": "5:17\u202fPM",
+                                "text": "5:47\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699460238
+                                "value": 1699462038
                             },
                             "headsign": "Z\u00fcrich, Hermetschloo",
                             "line": {
