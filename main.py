@@ -9,6 +9,7 @@ def compute_itinerary(api_key=""):
       data = json.load(f)
   if data['MAPS_API_KEY']:
     api_key = data['MAPS_API_KEY']
+  print(api_key)
   gmaps = googlemaps.Client(key=api_key)
   origin_location = "9H4X+R6 Zürich"
   directions_to_eth = gmaps.directions(origin_location, "ETH Zurich", mode="transit", departure_time=datetime.datetime.now())
