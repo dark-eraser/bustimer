@@ -39,7 +39,7 @@ def get_times():
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('api_key', help='Google Maps API key', required=False)
+    parser.add_argument('api_key', help='Google Maps API key')
     args = parser.parse_args()
 # run this every minute
     while True:
