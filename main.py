@@ -2,12 +2,13 @@ import json
 import googlemaps 
 import datetime
 import time
+from argparse import ArgumentParser
 
-def compute_itinerary():
+def compute_itinerary(api_key=""):
   with open('credentials.json') as f:
       data = json.load(f)
-
-  api_key = data['MAPS_API_KEY']
+  if data['MAPS_API_KEY']:
+    api_key = data['MAPS_API_KEY']
   gmaps = googlemaps.Client(key=api_key)
   origin_location = "9H4X+R6 Zürich"
   directions_to_eth = gmaps.directions(origin_location, "ETH Zurich", mode="transit", departure_time=datetime.datetime.now())
@@ -33,11 +34,14 @@ def get_times():
       print("Legs not found in the response.")
 
 def main():
+    parser = ArgumentParser()
+    parser.add_argument('api_key', help='Google Maps API key')
+    args = parser.parse_args()
 # run this every minute
-  while True:
-    compute_itinerary()
-    get_times()
-    time.sleep(60)
+    while True:
+        compute_itinerary(args.api_key)
+        get_times()
+        time.sleep(60)
 
 if __name__ == "__main__":
     main()
