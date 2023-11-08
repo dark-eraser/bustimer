@@ -2,34 +2,34 @@
     {
         "bounds": {
             "northeast": {
-                "lat": 47.3765904,
+                "lat": 47.3794293,
                 "lng": 8.5980541
             },
             "southwest": {
                 "lat": 47.357065,
-                "lng": 8.547272999999999
+                "lng": 8.5434688
             }
         },
         "copyrights": "Map data \u00a92023 Google",
         "legs": [
             {
                 "arrival_time": {
-                    "text": "6:22\u202fPM",
+                    "text": "7:15\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699464139
+                    "value": 1699467326
                 },
                 "departure_time": {
-                    "text": "5:54\u202fPM",
+                    "text": "6:49\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699462488
+                    "value": 1699465758
                 },
                 "distance": {
-                    "text": "5.9 km",
-                    "value": 5909
+                    "text": "6.9 km",
+                    "value": 6899
                 },
                 "duration": {
-                    "text": "28 mins",
-                    "value": 1651
+                    "text": "26 mins",
+                    "value": 1568
                 },
                 "end_address": "R\u00e4mistrasse 101, 8092 Z\u00fcrich, Switzerland",
                 "end_location": {
@@ -44,20 +44,20 @@
                 "steps": [
                     {
                         "distance": {
-                            "text": "5.4 km",
-                            "value": 5362
+                            "text": "5.9 km",
+                            "value": 5921
                         },
                         "duration": {
                             "text": "18 mins",
                             "value": 1092
                         },
                         "end_location": {
-                            "lat": 47.373001,
-                            "lng": 8.547272999999999
+                            "lat": 47.3768924,
+                            "lng": 8.543626999999999
                         },
                         "html_instructions": "Bus towards Z\u00fcrich, Hermetschloo",
                         "polyline": {
-                            "points": "wl``Hyhns@BDUTCDCBOXINADENELENCNMn@EPK^EPCDCFCFEDGJY`@q@hASj@KTEHCFEFIJKLC@CBa@Ns@Xg@VuAv@u@d@DTPnABT@HLr@Lj@@FBNPz@DVDNBHFLHTFLBHBFFTBDBNDNFTDXBLBT@FL|@BRVvBD^BZN~@BT?F@FRbB@LTlB@BJv@@L@JBN@FBl@@x@?P?\\C|A?VAtA?VAt@?NAfAAn@?J?l@ChBAv@Ev@C^G`@GVG\\Kh@sArDg@pAKTgAdDYv@U|@GPSx@a@nAOd@Mf@Sn@CJk@lBc@xAOb@ELk@bBg@tAGHKPGFIHOLC@ULg@TKD}@`@k@T_@PSHUH[HA@YFIBc@JODIBIBEDCBCBABC@ADCFAFAFAF?FAH@P@P@HBFNPNJNDXJRFRFj@P\\HJDLBN?D?VAVA@?JAH@D?H?F?F@JBHBNDLHNFPLPJLFJHHDZRRNLFJJDFBDBDBF?@@D@F@H?H?RAp@ChACzAA^Gd@In@IXU~@GRm@bCa@`BO`@GNIPIP_@j@GLm@|@IJSZOT[f@OTQTdAvCJZf@lA\\bATj@Tn@Rl@Nd@N^f@rJ@VFrA?Z?d@AZANCL?BAHIVGZENKb@CNCHETKX?@IREHMPADELGRCTCJCLAD@DADCV?RAZ?BC\\DNG^EPGVGRc@lA]z@e@|@w@xAG@G@A?C@EDCDCDCDILMTGJKLGJKPWf@AFADALk@~@Wb@S^GLCFCHCHCHG^Y|AIXO`@W~@M`@CLERMRCDEFC@CBqAj@s@ZEBYJUHYHqA\\QDUHM?OFA@C@KBORWVIHGFIJGJOTYl@EHMPMX{A|C_AfBIJ[j@KNCDqAdBED_@f@q@x@q@~@WZw@bAGLCBIHGHGHGHIHIHIFIFIDGFGBGDGBIFEBE@E@I@GJADGHGDCDKF_@REBULWLG@MFODE?QDOBgAHm@FQEGAGAA?C@UHULSTFN"
+                            "points": "wl``Hyhns@BDUTCDCBOXINADENELENCNMn@EPK^EPCDCFCFEDGJY`@q@hASj@KTEHCFEFIJKLC@CBa@Ns@Xg@VuAv@u@d@DTPnABT@HLr@Lj@@FBNPz@DVDNBHFLHTFLBHBFFTBDBNDNFTDXBLBT@FL|@BRVvBD^BZN~@BT?F@FRbB@LTlB@BJv@@L@JBN@FBl@@x@?P?\\C|A?VAtA?VAt@?NAfAAn@?J?l@ChBAv@Ev@C^G`@GVG\\Kh@sArDg@pAKTgAdDYv@U|@GPSx@a@nAOd@Mf@Sn@CJk@lBc@xAOb@ELk@bBg@tAGHKPGFIHOLC@ULg@TKD}@`@k@T_@PSHUH[HA@YFIBc@JODIBIBEDCBCBABC@ADCFAFAFAF?FAH@P@P@HBFNPNJNDXJRFRFj@P\\HJDLBN?D?VAVA@?JAH@D?H?F?F@JBHBNDLHNFPLPJLFJHHDZRRNLFJJDFBDBDBF?@@D@F@H?H?RAp@ChACzAA^Gd@In@IXU~@GRm@bCa@`BO`@GNIPIP_@j@GLm@|@IJSZOT[f@OTQTdAvCJZf@lA\\bATj@Tn@Rl@Nd@N^f@rJ@VFrA?Z?d@AZANCL?BAHIVGZENKb@CNCHETKX?@IREHMPADELGRCTCJCLAD@DADCV?RAZ?BC\\DNG^EPGVGRc@lA]z@e@|@w@xAG@G@A?C@EDCDCDCDILMTGJKLGJKPWf@AFADALk@~@Wb@S^GLCFCHCHCHG^Y|AIXO`@W~@M`@CLERMRCDEFC@CBqAj@s@ZEBYJUHYHqA\\QDUHM?OFA@C@KBORWVIHGFIJGJOTYl@EHMPMX{A|C_AfBIJ[j@KNCDqAdBED_@f@q@x@q@~@WZw@bAGLCBIHGHGHGHIHIHIFIFIDGFGBGDGBIFEBE@E@I@GJADGHGDCDKF_@REBULWLG@MFODE?QDOBgAHm@FQEGAGAA?C@UHULSTCBGL?JaBrAmA~@EBi@b@u@h@c@\\QJkAn@qBhAoBjA_@VEBWJMFMBG@MFGDEFIHILABGTAF?H@H@LBJBLBH@J?L@NLA"
                         },
                         "start_location": {
                             "lat": 47.3570822,
@@ -66,15 +66,15 @@
                         "transit_details": {
                             "arrival_stop": {
                                 "location": {
-                                    "lat": 47.373001,
-                                    "lng": 8.547272999999999
+                                    "lat": 47.3768924,
+                                    "lng": 8.543626999999999
                                 },
-                                "name": "Neumarkt"
+                                "name": "Central"
                             },
                             "arrival_time": {
-                                "text": "6:13\u202fPM",
+                                "text": "7:07\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699463580
+                                "value": 1699466850
                             },
                             "departure_stop": {
                                 "location": {
@@ -84,9 +84,9 @@
                                 "name": "Zweiackerstrasse"
                             },
                             "departure_time": {
-                                "text": "5:54\u202fPM",
+                                "text": "6:49\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699462488
+                                "value": 1699465758
                             },
                             "headsign": "Z\u00fcrich, Hermetschloo",
                             "line": {
@@ -106,18 +106,133 @@
                                     "type": "BUS"
                                 }
                             },
-                            "num_stops": 14
+                            "num_stops": 15
                         },
                         "travel_mode": "TRANSIT"
                     },
                     {
                         "distance": {
-                            "text": "0.5 km",
-                            "value": 547
+                            "text": "34 m",
+                            "value": 34
                         },
                         "duration": {
-                            "text": "9 mins",
-                            "value": 559
+                            "text": "1 min",
+                            "value": 34
+                        },
+                        "end_location": {
+                            "lat": 47.3769794,
+                            "lng": 8.5439183
+                        },
+                        "html_instructions": "Walk to Central",
+                        "polyline": {
+                            "points": "yhd`Huscs@IyA"
+                        },
+                        "start_location": {
+                            "lat": 47.3769313,
+                            "lng": 8.5434688
+                        },
+                        "steps": [
+                            {
+                                "distance": {
+                                    "text": "34 m",
+                                    "value": 34
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 34
+                                },
+                                "end_location": {
+                                    "lat": 47.3769794,
+                                    "lng": 8.5439183
+                                },
+                                "polyline": {
+                                    "points": "yhd`Huscs@IyA"
+                                },
+                                "start_location": {
+                                    "lat": 47.3769313,
+                                    "lng": 8.5434688
+                                },
+                                "travel_mode": "WALKING"
+                            }
+                        ],
+                        "travel_mode": "WALKING"
+                    },
+                    {
+                        "distance": {
+                            "text": "0.8 km",
+                            "value": 840
+                        },
+                        "duration": {
+                            "text": "4 mins",
+                            "value": 210
+                        },
+                        "end_location": {
+                            "lat": 47.376617,
+                            "lng": 8.5487
+                        },
+                        "html_instructions": "Tram towards Z\u00fcrich, Zoo",
+                        "polyline": {
+                            "points": "whd`Howcs@EBEKMUECGAe@EQAi@CuCAuBAiAAE?E@CEAIAGAI?I@K@GBGDGDIFEFG@CDIBC@ABGZe@DIRWLIx@e@tAw@xBmAFE@AdAi@HKBK@K?KC_@K{@CWGg@UsBMSCI?AHEJIDKDIFIxAg@JE@H"
+                        },
+                        "start_location": {
+                            "lat": 47.376919,
+                            "lng": 8.544084
+                        },
+                        "transit_details": {
+                            "arrival_stop": {
+                                "location": {
+                                    "lat": 47.376617,
+                                    "lng": 8.5487
+                                },
+                                "name": "ETH/Universit\u00e4tsspital"
+                            },
+                            "arrival_time": {
+                                "text": "7:14\u202fPM",
+                                "time_zone": "Europe/Zurich",
+                                "value": 1699467246
+                            },
+                            "departure_stop": {
+                                "location": {
+                                    "lat": 47.376919,
+                                    "lng": 8.544084
+                                },
+                                "name": "Central"
+                            },
+                            "departure_time": {
+                                "text": "7:10\u202fPM",
+                                "time_zone": "Europe/Zurich",
+                                "value": 1699467036
+                            },
+                            "headsign": "Z\u00fcrich, Zoo",
+                            "line": {
+                                "agencies": [
+                                    {
+                                        "name": "Z\u00fcrcher Verkehrsverbund",
+                                        "phone": "011 41 800 988 988",
+                                        "url": "http://www.zvv.ch/"
+                                    }
+                                ],
+                                "color": "#dca043",
+                                "short_name": "6",
+                                "text_color": "#ffffff",
+                                "vehicle": {
+                                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/ch-zurich-tram.png",
+                                    "name": "Tram",
+                                    "type": "TRAM"
+                                }
+                            },
+                            "num_stops": 2
+                        },
+                        "travel_mode": "TRANSIT"
+                    },
+                    {
+                        "distance": {
+                            "text": "0.1 km",
+                            "value": 104
+                        },
+                        "duration": {
+                            "text": "1 min",
+                            "value": 80
                         },
                         "end_location": {
                             "lat": 47.3765904,
@@ -125,105 +240,33 @@
                         },
                         "html_instructions": "Walk to R\u00e4mistrasse 101, 8092 Z\u00fcrich, Switzerland",
                         "polyline": {
-                            "points": "_pc`Halds@A@GWEDE_@AGCGEKCIGKGI?ASUIKKIEAECGAE?G?M@QBKDy@VMDg@RMFQFMFA?GBSHIDE@OHgAb@IDYLAGEYIo@CYYyBEWCQMs@KBC@gA`@OD]LMHC@"
+                            "points": "ild`H_qds@JC?@NG?ATIJKHCLAHArAg@"
                         },
                         "start_location": {
-                            "lat": 47.372965,
-                            "lng": 8.547371799999999
+                            "lat": 47.3774873,
+                            "lng": 8.548159499999999
                         },
                         "steps": [
                             {
                                 "distance": {
-                                    "text": "11 m",
-                                    "value": 11
+                                    "text": "0.1 km",
+                                    "value": 104
                                 },
                                 "duration": {
                                     "text": "1 min",
-                                    "value": 8
-                                },
-                                "end_location": {
-                                    "lat": 47.3729734,
-                                    "lng": 8.5473634
-                                },
-                                "html_instructions": "Head <b>northwest</b> on <b>Hirschengraben</b> toward <b>Neumarkt</b>",
-                                "polyline": {
-                                    "points": "_pc`Halds@A@"
-                                },
-                                "start_location": {
-                                    "lat": 47.372965,
-                                    "lng": 8.547371799999999
-                                },
-                                "travel_mode": "WALKING"
-                            },
-                            {
-                                "distance": {
-                                    "text": "0.3 km",
-                                    "value": 300
-                                },
-                                "duration": {
-                                    "text": "6 mins",
-                                    "value": 342
-                                },
-                                "end_location": {
-                                    "lat": 47.3753405,
-                                    "lng": 8.5473839
-                                },
-                                "html_instructions": "Turn <b>right</b> onto <b>K\u00fcnstlergasse</b>",
-                                "maneuver": "turn-right",
-                                "polyline": {
-                                    "points": "apc`H_lds@GWEDE_@AGCGEKCIGKGI?ASUIKKIEAECGAE?G?M@QBKDy@VMDg@RMFQFMFA?GBSHIDE@OHgAb@ID"
-                                },
-                                "start_location": {
-                                    "lat": 47.3729734,
-                                    "lng": 8.5473634
-                                },
-                                "travel_mode": "WALKING"
-                            },
-                            {
-                                "distance": {
-                                    "text": "0.1 km",
-                                    "value": 136
-                                },
-                                "duration": {
-                                    "text": "2 mins",
-                                    "value": 124
-                                },
-                                "end_location": {
-                                    "lat": 47.3758271,
-                                    "lng": 8.5489348
-                                },
-                                "html_instructions": "Turn <b>right</b> onto <b>Karl-Schmid-Strasse</b>",
-                                "maneuver": "turn-right",
-                                "polyline": {
-                                    "points": "{~c`Hclds@YLAGEYIo@CYYyBEWCQMs@"
-                                },
-                                "start_location": {
-                                    "lat": 47.3753405,
-                                    "lng": 8.5473839
-                                },
-                                "travel_mode": "WALKING"
-                            },
-                            {
-                                "distance": {
-                                    "text": "0.1 km",
-                                    "value": 100
-                                },
-                                "duration": {
-                                    "text": "1 min",
-                                    "value": 85
+                                    "value": 80
                                 },
                                 "end_location": {
                                     "lat": 47.3765904,
                                     "lng": 8.548568099999999
                                 },
-                                "html_instructions": "Turn <b>left</b> onto <b>R\u00e4mistrasse</b>/<wbr/><b>Route 17</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
-                                "maneuver": "turn-left",
+                                "html_instructions": "Head <b>south</b> on <b>R\u00e4mistrasse</b>/<wbr/><b>Route 17</b> toward <b>Tannenstrasse</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
                                 "polyline": {
-                                    "points": "}ad`Hyuds@KBC@gA`@OD]LMHC@"
+                                    "points": "ild`H_qds@JC?@NG?ATIJKHCLAHArAg@"
                                 },
                                 "start_location": {
-                                    "lat": 47.3758271,
-                                    "lng": 8.5489348
+                                    "lat": 47.3774873,
+                                    "lng": 8.548159499999999
                                 },
                                 "travel_mode": "WALKING"
                             }
@@ -236,7 +279,7 @@
             }
         ],
         "overview_polyline": {
-            "points": "wl``Hyhns@BDUTGHYh@GT]|A[hAU`@kAjB_@`AYd@ONe@R{Ap@kC|A\\dC`@vB`@lB\\z@Rr@VlAVnBjA|Jn@hFDfB?n@EbFKxKIvAOx@SfA{BdGsAzDo@tBmA`EqApEeBnFo@~ASXYVYN}CrAs@Zq@RiAXYHOHMLI\\Aj@BZRX^Pl@RhBh@\\B\\An@A^@TF\\N`Ah@dAr@XRHLHTBn@KvFQtA_@xAgBzGQ`@i@|@sArBmAhBvCdInAnDN^f@rJHjBClBOr@]~AUz@O\\OVUbAE^EjAC\\DNMp@Oj@aAhC}AvCOBE@IJ_@n@g@v@Yn@CR_BpCOd@a@|BYz@e@`BI`@[b@oCnAo@TkBf@g@N]FEBKBORa@`@QRw@xAwDpHu@lAiDlEiClD]`@[\\e@\\a@TKDOBY`@u@d@cAd@w@NuBPYGIAYJi@b@FNFSIUEDE_@EOIUOW]a@QKMEM?_@DeA\\uAh@k@TgBt@c@RGa@m@{EQeAODwAf@k@VC@"
+            "points": "wl``Hyhns@BDUTGHYh@GT]|A[hAU`@kAjB_@`AYd@ONe@R{Ap@kC|A\\dC`@vB`@lB\\z@Rr@VlAVnBjA|Jn@hFDfB?n@EbFKxKIvAOx@SfA{BdGsAzDo@tBmA`EqApEeBnFo@~ASXYVYN}CrAs@Zq@RiAXYHOHMLI\\Aj@BZRX^Pl@RhBh@\\B\\An@A^@TF\\N`Ah@dAr@XRHLHTBn@KvFQtA_@xAgBzGQ`@i@|@sArBmAhBvCdInAnDN^f@rJHjBClBOr@]~AUz@O\\OVUbAE^EjAC\\DNMp@Oj@aAhC}AvCOBE@IJ_@n@g@v@Yn@CR_BpCOd@a@|BYz@e@`BI`@[b@oCnAo@TkBf@g@N]FEBKBORa@`@QRw@xAwDpHu@lAiDlEiClD]`@[\\e@\\a@TKDOBY`@u@d@cAd@w@NuBPYGIAYJi@b@KP?JaBrAsAbAuCvB}DxBoCbB]N[JUHMLSVIXAPBVLn@@\\LAG^IyAJ_@EBEKSYm@G{@EkGCoAAE@CECQASBSHOV[NW`@o@`@a@pGqDfAk@LW@WO{AK_AUsBMSCKTOJUFIxAg@JE@HmDjBJCNETKTOVCrAg@"
         },
         "summary": "",
         "warnings": [

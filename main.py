@@ -4,6 +4,11 @@ import datetime
 import time
 from argparse import ArgumentParser
 import os
+import tkinter as tk
+from tkinter import font
+
+
+
 
 def compute_itinerary(api_key_arg=""):
     # check first if credentials file is available
@@ -31,21 +36,43 @@ def get_times():
                 if step['travel_mode'] == 'TRANSIT':
                     departure_time = step['transit_details']['departure_time']['text']
                     bus_number = step['transit_details']['line']['short_name']
-                    print(f"Bus {bus_number} departs at {departure_time}")
+                    # print(f"Bus {bus_number} departs at {departure_time}")
+                    return departure_time
         else:
             print("Steps not found in the first leg.")
     else:
         print("Legs not found in the response.")
+    print("No bus found.")
+def time_until_next_91():
+    now = datetime.datetime.now()
+    if now.minute < 30:
+        return 30 - now.minute
+    else:
+        return 60 - now.minute
 
-def main():
-    parser = ArgumentParser()
-    parser.add_argument('api_key', help='Google Maps API key')
-    args = parser.parse_args()
-# run this every minute
-    while True:
-        compute_itinerary(args.api_key)
-        get_times()
-        time.sleep(60)
 
-if __name__ == "__main__":
-    main()
+window = tk.Tk()
+window.geometry("400x200")
+window.title("Time until next 31")
+
+custom_font = font.Font(family="Helvetica", size=16)
+text_label_31 = tk.Label(window, text="Next 31 is at: "+str(get_times()),font=custom_font,fg="blue")
+text_label_31.pack(pady=20)
+text_label_91 = tk.Label(window, text="Next 91 bus is in: "+str(time_until_next_91())+" minutes.",font=custom_font,fg="blue")
+text_label_91.pack(pady=20)
+def update_text():
+    compute_itinerary(args.api_key)
+    text_label_31.config(text="Next 31 is at: "+str(get_times()))
+    text_label_91.config(text="Next 91 bus is in: "+str(time_until_next_91())+" minutes.")
+    window.after(60000, update_text)
+
+
+parser = ArgumentParser()
+parser.add_argument('--api_key')
+args = parser.parse_args()
+
+
+
+
+update_text()
+window.mainloop()
