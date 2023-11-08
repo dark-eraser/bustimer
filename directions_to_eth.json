@@ -14,22 +14,22 @@
         "legs": [
             {
                 "arrival_time": {
-                    "text": "3:38\u202fPM",
+                    "text": "5:44\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699454281
+                    "value": 1699461889
                 },
                 "departure_time": {
-                    "text": "3:12\u202fPM",
+                    "text": "5:17\u202fPM",
                     "time_zone": "Europe/Zurich",
-                    "value": 1699452738
+                    "value": 1699460238
                 },
                 "distance": {
                     "text": "5.9 km",
                     "value": 5909
                 },
                 "duration": {
-                    "text": "26 mins",
-                    "value": 1543
+                    "text": "28 mins",
+                    "value": 1651
                 },
                 "end_address": "R\u00e4mistrasse 101, 8092 Z\u00fcrich, Switzerland",
                 "end_location": {
@@ -48,8 +48,8 @@
                             "value": 5362
                         },
                         "duration": {
-                            "text": "16 mins",
-                            "value": 984
+                            "text": "18 mins",
+                            "value": 1092
                         },
                         "end_location": {
                             "lat": 47.373001,
@@ -72,9 +72,9 @@
                                 "name": "Neumarkt"
                             },
                             "arrival_time": {
-                                "text": "3:28\u202fPM",
+                                "text": "5:35\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699453722
+                                "value": 1699461330
                             },
                             "departure_stop": {
                                 "location": {
@@ -84,9 +84,9 @@
                                 "name": "Zweiackerstrasse"
                             },
                             "departure_time": {
-                                "text": "3:12\u202fPM",
+                                "text": "5:17\u202fPM",
                                 "time_zone": "Europe/Zurich",
-                                "value": 1699452738
+                                "value": 1699460238
                             },
                             "headsign": "Z\u00fcrich, Hermetschloo",
                             "line": {
