@@ -6,26 +6,29 @@ from argparse import ArgumentParser
 import os
 import tkinter as tk
 from tkinter import font
-
-
-
-
-def compute_itinerary(api_key_arg=""):
-    # check first if credentials file is available
+from PIL import Image, ImageTk
+def setup():
+    parser = ArgumentParser()
+    parser.add_argument('--api_key')
+    args = parser.parse_args()
     if os.path.exists('credentials.json'): 
-        with open('credentials.json') as f:
-            data = json.load(f)
-        api_key = data['MAPS_API_KEY']
+            with open('credentials.json') as f:
+                data = json.load(f)
+            api_key = data['MAPS_API_KEY']
     else:
-        api_key = api_key_arg
+        api_key = args.api_key
     gmaps = googlemaps.Client(key=api_key)
-    origin_location = "9H4X+R6 Zürich"
+    return gmaps
+def compute_itinerary(gmaps):
+    # check first if credentials file is available
+    origin_location = "Schaeracher 2 8053 Zuerich Switzerland"
     directions_to_eth = gmaps.directions(origin_location, "ETH Zurich", mode="transit", departure_time=datetime.datetime.now())
     # write directions to file correclty formatted
     with open('directions_to_eth.json', 'w') as outfile:
         json.dump(directions_to_eth, outfile, indent=4, sort_keys=True)
 
-def get_times():
+def get_times(gmaps):
+    compute_itinerary(gmaps)
     with open('directions_to_eth.json') as f:
         data = json.load(f)
     legs = data[0]['legs']
@@ -43,33 +46,57 @@ def get_times():
     else:
         print("Legs not found in the response.")
     print("No bus found.")
+
 def time_until_next_91():
     now = datetime.datetime.now()
-    if now.minute < 30:
-        return 30 - now.minute
+    if now.hour < 20 and now.hour > 7:
+        if now.minute < 30:
+            return 30 - now.minute
+        else:
+            return 60 - now.minute
     else:
-        return 60 - now.minute
+        return 1000000000000
 
-
+gmaps=setup()
 window = tk.Tk()
-window.geometry("400x200")
-window.title("Time until next 31")
+# window.attributes('-zoomed', True)
+window.geometry("500x350")
+window.configure(background='white')
 
-custom_font = font.Font(family="Helvetica", size=16)
-text_label_31 = tk.Label(window, text="Next 31 is at: "+str(get_times()),font=custom_font,fg="blue")
-text_label_31.pack(pady=20)
-text_label_91 = tk.Label(window, text="Next 91 bus is in: "+str(time_until_next_91())+" minutes.",font=custom_font,fg="blue")
-text_label_91.pack(pady=20)
+window.title(str(datetime.datetime.now()))
+
+image = Image.open("31logo.png")  # Replace with the path to your image file
+image = image.resize((120, 100))  # Resize the image as needed
+image = ImageTk.PhotoImage(image)
+image_label = tk.Label(window, image=image)
+
+image91 = Image.open("91logo.png")  # Replace with the path to your image file
+image91 = image91.resize((120, 100))  # Resize the image as needed
+image91 = ImageTk.PhotoImage(image91)
+image_label_91 = tk.Label(window, image=image91)
+
+custom_font = font.Font(family="Helvetica", size=36)
+# minutes_until_next_31 = datetime.datetime.now().minute
+text_label_31 = tk.Label(window, text=str(get_times(gmaps)), font=custom_font, fg="blue", bg="white")
+text_label_91 = tk.Label(window, text=str(time_until_next_91())+ " min", font=custom_font, fg="blue", bg="white")
+
+# Use the grid() method to position the widgets
+image_label.grid(row=0, column=0, padx=30, pady=10)
+text_label_31.grid(row=0, column=1, padx=100)
+image_label_91.grid(row=1, column=0, padx=30, pady=100)
+text_label_91.grid(row=1, column=1, padx=100, pady=100)
 def update_text():
-    compute_itinerary(args.api_key)
-    text_label_31.config(text="Next 31 is at: "+str(get_times()))
-    text_label_91.config(text="Next 91 bus is in: "+str(time_until_next_91())+" minutes.")
+    if datetime.datetime.now().hour > 0 and datetime.datetime.now().hour < 7:
+        text_label_31.config(text="No buses at night")
+        text_label_91.config(text="No buses at night")
+        window.after(60000, update_text)
+        return
+    text_label_31.config(text=str(get_times(gmaps)))
+    text_label_91.config(text=str(time_until_next_91())+ " min")
     window.after(60000, update_text)
 
 
-parser = ArgumentParser()
-parser.add_argument('--api_key')
-args = parser.parse_args()
+
 
 
 
